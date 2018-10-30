@@ -73,14 +73,35 @@ h2 {
     margin-top: 6em;
 }
 
-.col1 {
-    float: left;
-    width: 50%;
-    padding: 5px;
+.products {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-.col2::after {
-    content: "";
-    display: table;
-    clear: both
+.ktm-a {
+    text-decoration: none;
+    color: black;
 }
+
+.ktm-a:hover {
+    color: #e06118;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        width: 100%;
+    }
+}
+
+.col1 {}
+
+.col2::after {}
