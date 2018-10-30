@@ -4,7 +4,7 @@ body {
     font-family: sans-serif;
     box-sizing: border-box;
 }
-
+/*-----------NAVBAR----------*/
 #header {
     display: flex;
     position: fixed;
@@ -40,12 +40,12 @@ ul li:hover {
 iframe:focus {
     outline: none;
 }
-
+/*-------hr------*/
 hr {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
+/*-------INFO-------*/
 #infod {
     color: white;
 }
@@ -73,7 +73,7 @@ h2 {
 #products {
     margin-top: 6em;
 }
-
+/*-------PRODUCTS------*/
 .products {
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ h2 {
     color: #e06118;
     text-decoration: underline;
 }
-
+/*----------MEDIA--------*/
 @media only screen and (max-width: 768px) {
     #header-img {
         width: 2%;
@@ -109,6 +109,12 @@ h2 {
     }
 }
 
+@media only screen and (max-width: 768) {
+    ul li{
+        font-size: 0.8em;
+    }
+}
+/*---------EMAIL-SUBMIT---------*/
 #email {
     display: flex;
     justify-content: center;
