@@ -54,6 +54,7 @@ hr {
     color: white;
 }
 
+h1,
 h2 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -96,22 +97,18 @@ h2 {
 }
 
 /*----------MEDIA--------*/
-@media only screen and (max-width: 768px) {
-    #header-img {
-        width: 2%;
-    }
-}
 
-@media only screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
+    * {
+        width: 100%;
+    }
     .products {
         display: flex;
         flex-direction: column;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    * {
-        width: 100%;
+    #header-img {
+        width: 2%;
     }
 }
 
